@@ -1,0 +1,121 @@
+root@autodl-container-caf44cbe32-76113d23:~# cd nndl
+root@autodl-container-caf44cbe32-76113d23:~/nndl# python optim.py
+使用设备: cuda:0
+Files already downloaded and verified
+Files already downloaded and verified
+
+==================================================
+测试优化器: SGD
+==================================================
+
+开始训练 SGD 优化器...
+SGD - Epoch [1/15], Loss: 1.9036, Accuracy: 34.81%
+SGD - Epoch [2/15], Loss: 1.5616, Accuracy: 44.65%
+SGD - Epoch [3/15], Loss: 1.3656, Accuracy: 54.40%
+SGD - Epoch [4/15], Loss: 1.2000, Accuracy: 54.51%
+SGD - Epoch [5/15], Loss: 1.0859, Accuracy: 58.40%
+SGD - Epoch [6/15], Loss: 0.9884, Accuracy: 65.31%
+SGD - Epoch [7/15], Loss: 0.9191, Accuracy: 72.89%
+SGD - Epoch [8/15], Loss: 0.8581, Accuracy: 71.31%
+SGD - Epoch [9/15], Loss: 0.7958, Accuracy: 72.55%
+SGD - Epoch [10/15], Loss: 0.7480, Accuracy: 71.90%
+SGD - Epoch [11/15], Loss: 0.7103, Accuracy: 78.12%
+SGD - Epoch [12/15], Loss: 0.6679, Accuracy: 80.47%
+SGD - Epoch [13/15], Loss: 0.6373, Accuracy: 80.01%
+SGD - Epoch [14/15], Loss: 0.6115, Accuracy: 80.22%
+SGD - Epoch [15/15], Loss: 0.5800, Accuracy: 80.30%
+
+==================================================
+测试优化器: Adam
+==================================================
+
+开始训练 Adam 优化器...
+Adam - Epoch [1/15], Loss: 1.7763, Accuracy: 41.42%
+Adam - Epoch [2/15], Loss: 1.4282, Accuracy: 51.17%
+Adam - Epoch [3/15], Loss: 1.2318, Accuracy: 58.58%
+Adam - Epoch [4/15], Loss: 1.0772, Accuracy: 65.02%
+Adam - Epoch [5/15], Loss: 0.9679, Accuracy: 69.29%
+Adam - Epoch [6/15], Loss: 0.8828, Accuracy: 71.12%
+Adam - Epoch [7/15], Loss: 0.8225, Accuracy: 73.91%
+Adam - Epoch [8/15], Loss: 0.7543, Accuracy: 77.51%
+Adam - Epoch [9/15], Loss: 0.7108, Accuracy: 76.85%
+Adam - Epoch [10/15], Loss: 0.6651, Accuracy: 79.14%
+Adam - Epoch [11/15], Loss: 0.6281, Accuracy: 77.71%
+Adam - Epoch [12/15], Loss: 0.5992, Accuracy: 79.98%
+Adam - Epoch [13/15], Loss: 0.5669, Accuracy: 82.16%
+Adam - Epoch [14/15], Loss: 0.5467, Accuracy: 81.20%
+Adam - Epoch [15/15], Loss: 0.5198, Accuracy: 82.21%
+
+==================================================
+测试优化器: RMSprop
+==================================================
+
+开始训练 RMSprop 优化器...
+RMSprop - Epoch [1/15], Loss: 1.8247, Accuracy: 35.31%
+RMSprop - Epoch [2/15], Loss: 1.5242, Accuracy: 46.54%
+RMSprop - Epoch [3/15], Loss: 1.3252, Accuracy: 47.45%
+RMSprop - Epoch [4/15], Loss: 1.1769, Accuracy: 63.32%
+RMSprop - Epoch [5/15], Loss: 1.0606, Accuracy: 60.25%
+RMSprop - Epoch [6/15], Loss: 0.9672, Accuracy: 68.42%
+RMSprop - Epoch [7/15], Loss: 0.8980, Accuracy: 67.95%
+RMSprop - Epoch [8/15], Loss: 0.8163, Accuracy: 63.33%
+RMSprop - Epoch [9/15], Loss: 0.7640, Accuracy: 76.77%
+RMSprop - Epoch [10/15], Loss: 0.7174, Accuracy: 65.50%
+RMSprop - Epoch [11/15], Loss: 0.6756, Accuracy: 76.12%
+RMSprop - Epoch [12/15], Loss: 0.6354, Accuracy: 73.14%
+RMSprop - Epoch [13/15], Loss: 0.6003, Accuracy: 74.81%
+RMSprop - Epoch [14/15], Loss: 0.5730, Accuracy: 79.86%
+RMSprop - Epoch [15/15], Loss: 0.5523, Accuracy: 80.08%
+
+==================================================
+测试优化器: Adagrad
+==================================================
+
+开始训练 Adagrad 优化器...
+Adagrad - Epoch [1/15], Loss: 1.8201, Accuracy: 39.11%
+Adagrad - Epoch [2/15], Loss: 1.5277, Accuracy: 47.57%
+Adagrad - Epoch [3/15], Loss: 1.3500, Accuracy: 52.70%
+Adagrad - Epoch [4/15], Loss: 1.2246, Accuracy: 57.34%
+Adagrad - Epoch [5/15], Loss: 1.1131, Accuracy: 63.18%
+Adagrad - Epoch [6/15], Loss: 1.0253, Accuracy: 67.28%
+Adagrad - Epoch [7/15], Loss: 0.9583, Accuracy: 69.13%
+Adagrad - Epoch [8/15], Loss: 0.8898, Accuracy: 70.61%
+Adagrad - Epoch [9/15], Loss: 0.8461, Accuracy: 70.71%
+Adagrad - Epoch [10/15], Loss: 0.8007, Accuracy: 73.52%
+Adagrad - Epoch [11/15], Loss: 0.7574, Accuracy: 73.10%
+Adagrad - Epoch [12/15], Loss: 0.7342, Accuracy: 76.06%
+Adagrad - Epoch [13/15], Loss: 0.7073, Accuracy: 74.56%
+Adagrad - Epoch [14/15], Loss: 0.6848, Accuracy: 78.13%
+Adagrad - Epoch [15/15], Loss: 0.6541, Accuracy: 78.58%
+
+==================================================
+测试优化器: No Optimizer
+==================================================
+
+开始训练 No Optimizer 优化器...
+No Optimizer - Epoch [1/15], Loss: 2.2424, Accuracy: 21.39%
+No Optimizer - Epoch [2/15], Loss: 1.9847, Accuracy: 25.60%
+No Optimizer - Epoch [3/15], Loss: 1.8665, Accuracy: 28.61%
+No Optimizer - Epoch [4/15], Loss: 1.7684, Accuracy: 31.03%
+No Optimizer - Epoch [5/15], Loss: 1.6944, Accuracy: 34.93%
+No Optimizer - Epoch [6/15], Loss: 1.6378, Accuracy: 34.76%
+No Optimizer - Epoch [7/15], Loss: 1.5750, Accuracy: 41.29%
+No Optimizer - Epoch [8/15], Loss: 1.5272, Accuracy: 41.11%
+No Optimizer - Epoch [9/15], Loss: 1.4850, Accuracy: 45.80%
+No Optimizer - Epoch [10/15], Loss: 1.4324, Accuracy: 49.71%
+No Optimizer - Epoch [11/15], Loss: 1.3860, Accuracy: 47.92%
+No Optimizer - Epoch [12/15], Loss: 1.3412, Accuracy: 42.84%
+No Optimizer - Epoch [13/15], Loss: 1.2871, Accuracy: 55.82%
+No Optimizer - Epoch [14/15], Loss: 1.2452, Accuracy: 56.49%
+No Optimizer - Epoch [15/15], Loss: 1.2057, Accuracy: 55.28%
+
+图像已保存为 'optimizer_comparison_0605.png'
+
+============================================================
+最终结果总结:
+============================================================
+SGD          - 最终损失: 0.5800, 最终准确率: 80.30%
+Adam         - 最终损失: 0.5198, 最终准确率: 82.21%
+RMSprop      - 最终损失: 0.5523, 最终准确率: 80.08%
+Adagrad      - 最终损失: 0.6541, 最终准确率: 78.58%
+No Optimizer - 最终损失: 1.2057, 最终准确率: 55.28%

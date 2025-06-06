@@ -1,0 +1,391 @@
+root@autodl-container-caf44cbe32-76113d23:~/nndl# python active.py
+使用设备: cuda:0
+Files already downloaded and verified
+Files already downloaded and verified
+
+开始训练 relu 激活函数模型...
+[relu] Epoch 1, Batch 100: Loss = 2.023
+[relu] Epoch 1, Batch 200: Loss = 1.776
+[relu] Epoch 1, Batch 300: Loss = 1.665
+[relu] Epoch 1/15: Loss = 1.6259, Accuracy = 38.48%
+[relu] Epoch 2, Batch 100: Loss = 1.486
+[relu] Epoch 2, Batch 200: Loss = 1.424
+[relu] Epoch 2, Batch 300: Loss = 1.364
+[relu] Epoch 2/15: Loss = 1.2407, Accuracy = 53.76%
+[relu] Epoch 3, Batch 100: Loss = 1.262
+[relu] Epoch 3, Batch 200: Loss = 1.211
+[relu] Epoch 3, Batch 300: Loss = 1.149
+[relu] Epoch 3/15: Loss = 1.2631, Accuracy = 55.36%
+[relu] Epoch 4, Batch 100: Loss = 1.078
+[relu] Epoch 4, Batch 200: Loss = 1.061
+[relu] Epoch 4, Batch 300: Loss = 1.017
+[relu] Epoch 4/15: Loss = 0.9578, Accuracy = 66.07%
+[relu] Epoch 5, Batch 100: Loss = 0.964
+[relu] Epoch 5, Batch 200: Loss = 0.934
+[relu] Epoch 5, Batch 300: Loss = 0.922
+[relu] Epoch 5/15: Loss = 0.8674, Accuracy = 69.71%
+[relu] Epoch 6, Batch 100: Loss = 0.868
+[relu] Epoch 6, Batch 200: Loss = 0.862
+[relu] Epoch 6, Batch 300: Loss = 0.850
+[relu] Epoch 6/15: Loss = 0.7331, Accuracy = 74.23%
+[relu] Epoch 7, Batch 100: Loss = 0.794
+[relu] Epoch 7, Batch 200: Loss = 0.803
+[relu] Epoch 7, Batch 300: Loss = 0.760
+[relu] Epoch 7/15: Loss = 0.7263, Accuracy = 74.73%
+[relu] Epoch 8, Batch 100: Loss = 0.672
+[relu] Epoch 8, Batch 200: Loss = 0.650
+[relu] Epoch 8, Batch 300: Loss = 0.634
+[relu] Epoch 8/15: Loss = 0.5176, Accuracy = 82.16%
+[relu] Epoch 9, Batch 100: Loss = 0.597
+[relu] Epoch 9, Batch 200: Loss = 0.614
+[relu] Epoch 9, Batch 300: Loss = 0.614
+[relu] Epoch 9/15: Loss = 0.4992, Accuracy = 82.75%
+[relu] Epoch 10, Batch 100: Loss = 0.591
+[relu] Epoch 10, Batch 200: Loss = 0.573
+[relu] Epoch 10, Batch 300: Loss = 0.583
+[relu] Epoch 10/15: Loss = 0.4761, Accuracy = 83.79%
+[relu] Epoch 11, Batch 100: Loss = 0.568
+[relu] Epoch 11, Batch 200: Loss = 0.577
+[relu] Epoch 11, Batch 300: Loss = 0.575
+[relu] Epoch 11/15: Loss = 0.4640, Accuracy = 84.19%
+[relu] Epoch 12, Batch 100: Loss = 0.555
+[relu] Epoch 12, Batch 200: Loss = 0.559
+[relu] Epoch 12, Batch 300: Loss = 0.560
+[relu] Epoch 12/15: Loss = 0.4517, Accuracy = 84.57%
+[relu] Epoch 13, Batch 100: Loss = 0.541
+[relu] Epoch 13, Batch 200: Loss = 0.546
+[relu] Epoch 13, Batch 300: Loss = 0.543
+[relu] Epoch 13/15: Loss = 0.4430, Accuracy = 84.76%
+[relu] Epoch 14, Batch 100: Loss = 0.512
+[relu] Epoch 14, Batch 200: Loss = 0.517
+[relu] Epoch 14, Batch 300: Loss = 0.551
+[relu] Epoch 14/15: Loss = 0.4329, Accuracy = 85.16%
+[relu] Epoch 15, Batch 100: Loss = 0.514
+[relu] Epoch 15, Batch 200: Loss = 0.505
+[relu] Epoch 15, Batch 300: Loss = 0.514
+[relu] Epoch 15/15: Loss = 0.4221, Accuracy = 85.61%
+[relu] 测试准确率: 83.82%
+
+开始训练 leaky_relu 激活函数模型...
+[leaky_relu] Epoch 1, Batch 100: Loss = 2.000
+[leaky_relu] Epoch 1, Batch 200: Loss = 1.769
+[leaky_relu] Epoch 1, Batch 300: Loss = 1.661
+[leaky_relu] Epoch 1/15: Loss = 1.5948, Accuracy = 38.82%
+[leaky_relu] Epoch 2, Batch 100: Loss = 1.517
+[leaky_relu] Epoch 2, Batch 200: Loss = 1.454
+[leaky_relu] Epoch 2, Batch 300: Loss = 1.393
+[leaky_relu] Epoch 2/15: Loss = 1.3328, Accuracy = 50.83%
+[leaky_relu] Epoch 3, Batch 100: Loss = 1.272
+[leaky_relu] Epoch 3, Batch 200: Loss = 1.229
+[leaky_relu] Epoch 3, Batch 300: Loss = 1.214
+[leaky_relu] Epoch 3/15: Loss = 1.2539, Accuracy = 53.36%
+[leaky_relu] Epoch 4, Batch 100: Loss = 1.126
+[leaky_relu] Epoch 4, Batch 200: Loss = 1.079
+[leaky_relu] Epoch 4, Batch 300: Loss = 1.057
+[leaky_relu] Epoch 4/15: Loss = 1.1147, Accuracy = 61.40%
+[leaky_relu] Epoch 5, Batch 100: Loss = 0.992
+[leaky_relu] Epoch 5, Batch 200: Loss = 0.983
+[leaky_relu] Epoch 5, Batch 300: Loss = 0.946
+[leaky_relu] Epoch 5/15: Loss = 0.9802, Accuracy = 65.77%
+[leaky_relu] Epoch 6, Batch 100: Loss = 0.894
+[leaky_relu] Epoch 6, Batch 200: Loss = 0.903
+[leaky_relu] Epoch 6, Batch 300: Loss = 0.870
+[leaky_relu] Epoch 6/15: Loss = 0.8426, Accuracy = 69.38%
+[leaky_relu] Epoch 7, Batch 100: Loss = 0.824
+[leaky_relu] Epoch 7, Batch 200: Loss = 0.820
+[leaky_relu] Epoch 7, Batch 300: Loss = 0.810
+[leaky_relu] Epoch 7/15: Loss = 0.7479, Accuracy = 73.57%
+[leaky_relu] Epoch 8, Batch 100: Loss = 0.703
+[leaky_relu] Epoch 8, Batch 200: Loss = 0.660
+[leaky_relu] Epoch 8, Batch 300: Loss = 0.657
+[leaky_relu] Epoch 8/15: Loss = 0.5552, Accuracy = 80.45%
+[leaky_relu] Epoch 9, Batch 100: Loss = 0.629
+[leaky_relu] Epoch 9, Batch 200: Loss = 0.632
+[leaky_relu] Epoch 9, Batch 300: Loss = 0.623
+[leaky_relu] Epoch 9/15: Loss = 0.5352, Accuracy = 81.25%
+[leaky_relu] Epoch 10, Batch 100: Loss = 0.618
+[leaky_relu] Epoch 10, Batch 200: Loss = 0.619
+[leaky_relu] Epoch 10, Batch 300: Loss = 0.604
+[leaky_relu] Epoch 10/15: Loss = 0.5178, Accuracy = 81.82%
+[leaky_relu] Epoch 11, Batch 100: Loss = 0.588
+[leaky_relu] Epoch 11, Batch 200: Loss = 0.609
+[leaky_relu] Epoch 11, Batch 300: Loss = 0.602
+[leaky_relu] Epoch 11/15: Loss = 0.5028, Accuracy = 82.47%
+[leaky_relu] Epoch 12, Batch 100: Loss = 0.575
+[leaky_relu] Epoch 12, Batch 200: Loss = 0.584
+[leaky_relu] Epoch 12, Batch 300: Loss = 0.577
+[leaky_relu] Epoch 12/15: Loss = 0.4901, Accuracy = 82.98%
+[leaky_relu] Epoch 13, Batch 100: Loss = 0.560
+[leaky_relu] Epoch 13, Batch 200: Loss = 0.571
+[leaky_relu] Epoch 13, Batch 300: Loss = 0.571
+[leaky_relu] Epoch 13/15: Loss = 0.4870, Accuracy = 83.06%
+[leaky_relu] Epoch 14, Batch 100: Loss = 0.542
+[leaky_relu] Epoch 14, Batch 200: Loss = 0.567
+[leaky_relu] Epoch 14, Batch 300: Loss = 0.554
+[leaky_relu] Epoch 14/15: Loss = 0.4768, Accuracy = 83.32%
+[leaky_relu] Epoch 15, Batch 100: Loss = 0.537
+[leaky_relu] Epoch 15, Batch 200: Loss = 0.535
+[leaky_relu] Epoch 15, Batch 300: Loss = 0.527
+[leaky_relu] Epoch 15/15: Loss = 0.4601, Accuracy = 84.04%
+[leaky_relu] 测试准确率: 82.32%
+
+开始训练 elu 激活函数模型...
+[elu] Epoch 1, Batch 100: Loss = 1.950
+[elu] Epoch 1, Batch 200: Loss = 1.776
+[elu] Epoch 1, Batch 300: Loss = 1.678
+[elu] Epoch 1/15: Loss = 1.5209, Accuracy = 42.10%
+[elu] Epoch 2, Batch 100: Loss = 1.525
+[elu] Epoch 2, Batch 200: Loss = 1.454
+[elu] Epoch 2, Batch 300: Loss = 1.399
+[elu] Epoch 2/15: Loss = 1.2788, Accuracy = 53.51%
+[elu] Epoch 3, Batch 100: Loss = 1.245
+[elu] Epoch 3, Batch 200: Loss = 1.247
+[elu] Epoch 3, Batch 300: Loss = 1.209
+[elu] Epoch 3/15: Loss = 1.1518, Accuracy = 57.96%
+[elu] Epoch 4, Batch 100: Loss = 1.141
+[elu] Epoch 4, Batch 200: Loss = 1.102
+[elu] Epoch 4, Batch 300: Loss = 1.074
+[elu] Epoch 4/15: Loss = 0.9681, Accuracy = 64.30%
+[elu] Epoch 5, Batch 100: Loss = 1.039
+[elu] Epoch 5, Batch 200: Loss = 1.030
+[elu] Epoch 5, Batch 300: Loss = 1.004
+[elu] Epoch 5/15: Loss = 0.9039, Accuracy = 67.12%
+[elu] Epoch 6, Batch 100: Loss = 0.962
+[elu] Epoch 6, Batch 200: Loss = 0.955
+[elu] Epoch 6, Batch 300: Loss = 0.927
+[elu] Epoch 6/15: Loss = 0.8574, Accuracy = 68.81%
+[elu] Epoch 7, Batch 100: Loss = 0.906
+[elu] Epoch 7, Batch 200: Loss = 0.915
+[elu] Epoch 7, Batch 300: Loss = 0.864
+[elu] Epoch 7/15: Loss = 0.8025, Accuracy = 70.76%
+[elu] Epoch 8, Batch 100: Loss = 0.798
+[elu] Epoch 8, Batch 200: Loss = 0.754
+[elu] Epoch 8, Batch 300: Loss = 0.741
+[elu] Epoch 8/15: Loss = 0.6425, Accuracy = 76.63%
+[elu] Epoch 9, Batch 100: Loss = 0.735
+[elu] Epoch 9, Batch 200: Loss = 0.707
+[elu] Epoch 9, Batch 300: Loss = 0.720
+[elu] Epoch 9/15: Loss = 0.6209, Accuracy = 77.43%
+[elu] Epoch 10, Batch 100: Loss = 0.694
+[elu] Epoch 10, Batch 200: Loss = 0.702
+[elu] Epoch 10, Batch 300: Loss = 0.695
+[elu] Epoch 10/15: Loss = 0.6044, Accuracy = 78.10%
+[elu] Epoch 11, Batch 100: Loss = 0.693
+[elu] Epoch 11, Batch 200: Loss = 0.690
+[elu] Epoch 11, Batch 300: Loss = 0.678
+[elu] Epoch 11/15: Loss = 0.5902, Accuracy = 78.96%
+[elu] Epoch 12, Batch 100: Loss = 0.676
+[elu] Epoch 12, Batch 200: Loss = 0.667
+[elu] Epoch 12, Batch 300: Loss = 0.660
+[elu] Epoch 12/15: Loss = 0.5802, Accuracy = 79.28%
+[elu] Epoch 13, Batch 100: Loss = 0.646
+[elu] Epoch 13, Batch 200: Loss = 0.659
+[elu] Epoch 13, Batch 300: Loss = 0.659
+[elu] Epoch 13/15: Loss = 0.5657, Accuracy = 79.69%
+[elu] Epoch 14, Batch 100: Loss = 0.652
+[elu] Epoch 14, Batch 200: Loss = 0.638
+[elu] Epoch 14, Batch 300: Loss = 0.652
+[elu] Epoch 14/15: Loss = 0.5534, Accuracy = 80.35%
+[elu] Epoch 15, Batch 100: Loss = 0.624
+[elu] Epoch 15, Batch 200: Loss = 0.641
+[elu] Epoch 15, Batch 300: Loss = 0.625
+[elu] Epoch 15/15: Loss = 0.5427, Accuracy = 80.69%
+[elu] 测试准确率: 78.84%
+
+开始训练 gelu 激活函数模型...
+[gelu] Epoch 1, Batch 100: Loss = 1.990
+[gelu] Epoch 1, Batch 200: Loss = 1.751
+[gelu] Epoch 1, Batch 300: Loss = 1.658
+[gelu] Epoch 1/15: Loss = 1.7034, Accuracy = 38.50%
+[gelu] Epoch 2, Batch 100: Loss = 1.416
+[gelu] Epoch 2, Batch 200: Loss = 1.362
+[gelu] Epoch 2, Batch 300: Loss = 1.290
+[gelu] Epoch 2/15: Loss = 1.1025, Accuracy = 59.40%
+[gelu] Epoch 3, Batch 100: Loss = 1.154
+[gelu] Epoch 3, Batch 200: Loss = 1.113
+[gelu] Epoch 3, Batch 300: Loss = 1.065
+[gelu] Epoch 3/15: Loss = 0.9269, Accuracy = 66.65%
+[gelu] Epoch 4, Batch 100: Loss = 0.965
+[gelu] Epoch 4, Batch 200: Loss = 0.942
+[gelu] Epoch 4, Batch 300: Loss = 0.901
+[gelu] Epoch 4/15: Loss = 0.8256, Accuracy = 70.69%
+[gelu] Epoch 5, Batch 100: Loss = 0.851
+[gelu] Epoch 5, Batch 200: Loss = 0.833
+[gelu] Epoch 5, Batch 300: Loss = 0.825
+[gelu] Epoch 5/15: Loss = 0.7403, Accuracy = 73.78%
+[gelu] Epoch 6, Batch 100: Loss = 0.758
+[gelu] Epoch 6, Batch 200: Loss = 0.744
+[gelu] Epoch 6, Batch 300: Loss = 0.745
+[gelu] Epoch 6/15: Loss = 0.6828, Accuracy = 76.69%
+[gelu] Epoch 7, Batch 100: Loss = 0.687
+[gelu] Epoch 7, Batch 200: Loss = 0.695
+[gelu] Epoch 7, Batch 300: Loss = 0.673
+[gelu] Epoch 7/15: Loss = 0.5500, Accuracy = 81.01%
+[gelu] Epoch 8, Batch 100: Loss = 0.567
+[gelu] Epoch 8, Batch 200: Loss = 0.543
+[gelu] Epoch 8, Batch 300: Loss = 0.559
+[gelu] Epoch 8/15: Loss = 0.4473, Accuracy = 84.54%
+[gelu] Epoch 9, Batch 100: Loss = 0.514
+[gelu] Epoch 9, Batch 200: Loss = 0.524
+[gelu] Epoch 9, Batch 300: Loss = 0.512
+[gelu] Epoch 9/15: Loss = 0.4248, Accuracy = 85.48%
+[gelu] Epoch 10, Batch 100: Loss = 0.493
+[gelu] Epoch 10, Batch 200: Loss = 0.501
+[gelu] Epoch 10, Batch 300: Loss = 0.497
+[gelu] Epoch 10/15: Loss = 0.4112, Accuracy = 85.84%
+[gelu] Epoch 11, Batch 100: Loss = 0.482
+[gelu] Epoch 11, Batch 200: Loss = 0.477
+[gelu] Epoch 11, Batch 300: Loss = 0.490
+[gelu] Epoch 11/15: Loss = 0.3968, Accuracy = 86.44%
+[gelu] Epoch 12, Batch 100: Loss = 0.469
+[gelu] Epoch 12, Batch 200: Loss = 0.454
+[gelu] Epoch 12, Batch 300: Loss = 0.463
+[gelu] Epoch 12/15: Loss = 0.3945, Accuracy = 86.42%
+[gelu] Epoch 13, Batch 100: Loss = 0.455
+[gelu] Epoch 13, Batch 200: Loss = 0.440
+[gelu] Epoch 13, Batch 300: Loss = 0.451
+[gelu] Epoch 13/15: Loss = 0.3755, Accuracy = 87.19%
+[gelu] Epoch 14, Batch 100: Loss = 0.449
+[gelu] Epoch 14, Batch 200: Loss = 0.436
+[gelu] Epoch 14, Batch 300: Loss = 0.447
+[gelu] Epoch 14/15: Loss = 0.3717, Accuracy = 87.29%
+[gelu] Epoch 15, Batch 100: Loss = 0.423
+[gelu] Epoch 15, Batch 200: Loss = 0.430
+[gelu] Epoch 15, Batch 300: Loss = 0.431
+[gelu] Epoch 15/15: Loss = 0.3620, Accuracy = 87.64%
+[gelu] 测试准确率: 84.71%
+
+开始训练 swish 激活函数模型...
+[swish] Epoch 1, Batch 100: Loss = 1.977
+[swish] Epoch 1, Batch 200: Loss = 1.743
+[swish] Epoch 1, Batch 300: Loss = 1.618
+[swish] Epoch 1/15: Loss = 1.4412, Accuracy = 45.91%
+[swish] Epoch 2, Batch 100: Loss = 1.410
+[swish] Epoch 2, Batch 200: Loss = 1.344
+[swish] Epoch 2, Batch 300: Loss = 1.267
+[swish] Epoch 2/15: Loss = 1.3598, Accuracy = 48.56%
+[swish] Epoch 3, Batch 100: Loss = 1.148
+[swish] Epoch 3, Batch 200: Loss = 1.102
+[swish] Epoch 3, Batch 300: Loss = 1.046
+[swish] Epoch 3/15: Loss = 1.0183, Accuracy = 62.99%
+[swish] Epoch 4, Batch 100: Loss = 0.965
+[swish] Epoch 4, Batch 200: Loss = 0.955
+[swish] Epoch 4, Batch 300: Loss = 0.920
+[swish] Epoch 4/15: Loss = 0.8223, Accuracy = 70.40%
+[swish] Epoch 5, Batch 100: Loss = 0.866
+[swish] Epoch 5, Batch 200: Loss = 0.812
+[swish] Epoch 5, Batch 300: Loss = 0.810
+[swish] Epoch 5/15: Loss = 0.7850, Accuracy = 72.05%
+[swish] Epoch 6, Batch 100: Loss = 0.771
+[swish] Epoch 6, Batch 200: Loss = 0.750
+[swish] Epoch 6, Batch 300: Loss = 0.734
+[swish] Epoch 6/15: Loss = 0.6418, Accuracy = 77.67%
+[swish] Epoch 7, Batch 100: Loss = 0.676
+[swish] Epoch 7, Batch 200: Loss = 0.689
+[swish] Epoch 7, Batch 300: Loss = 0.688
+[swish] Epoch 7/15: Loss = 0.5500, Accuracy = 80.96%
+[swish] Epoch 8, Batch 100: Loss = 0.572
+[swish] Epoch 8, Batch 200: Loss = 0.539
+[swish] Epoch 8, Batch 300: Loss = 0.535
+[swish] Epoch 8/15: Loss = 0.4446, Accuracy = 84.80%
+[swish] Epoch 9, Batch 100: Loss = 0.531
+[swish] Epoch 9, Batch 200: Loss = 0.504
+[swish] Epoch 9, Batch 300: Loss = 0.512
+[swish] Epoch 9/15: Loss = 0.4220, Accuracy = 85.36%
+[swish] Epoch 10, Batch 100: Loss = 0.494
+[swish] Epoch 10, Batch 200: Loss = 0.493
+[swish] Epoch 10, Batch 300: Loss = 0.491
+[swish] Epoch 10/15: Loss = 0.4115, Accuracy = 85.81%
+[swish] Epoch 11, Batch 100: Loss = 0.481
+[swish] Epoch 11, Batch 200: Loss = 0.483
+[swish] Epoch 11, Batch 300: Loss = 0.480
+[swish] Epoch 11/15: Loss = 0.3994, Accuracy = 86.22%
+[swish] Epoch 12, Batch 100: Loss = 0.481
+[swish] Epoch 12, Batch 200: Loss = 0.461
+[swish] Epoch 12, Batch 300: Loss = 0.467
+[swish] Epoch 12/15: Loss = 0.3923, Accuracy = 86.45%
+[swish] Epoch 13, Batch 100: Loss = 0.447
+[swish] Epoch 13, Batch 200: Loss = 0.466
+[swish] Epoch 13, Batch 300: Loss = 0.449
+[swish] Epoch 13/15: Loss = 0.3828, Accuracy = 86.88%
+[swish] Epoch 14, Batch 100: Loss = 0.427
+[swish] Epoch 14, Batch 200: Loss = 0.450
+[swish] Epoch 14, Batch 300: Loss = 0.456
+[swish] Epoch 14/15: Loss = 0.3696, Accuracy = 87.28%
+[swish] Epoch 15, Batch 100: Loss = 0.433
+[swish] Epoch 15, Batch 200: Loss = 0.424
+[swish] Epoch 15, Batch 300: Loss = 0.431
+[swish] Epoch 15/15: Loss = 0.3618, Accuracy = 87.53%
+[swish] 测试准确率: 85.25%
+
+开始训练 tanh 激活函数模型...
+[tanh] Epoch 1, Batch 100: Loss = 2.048
+[tanh] Epoch 1, Batch 200: Loss = 1.918
+[tanh] Epoch 1, Batch 300: Loss = 1.798
+[tanh] Epoch 1/15: Loss = 1.6830, Accuracy = 35.99%
+[tanh] Epoch 2, Batch 100: Loss = 1.665
+[tanh] Epoch 2, Batch 200: Loss = 1.599
+[tanh] Epoch 2, Batch 300: Loss = 1.555
+[tanh] Epoch 2/15: Loss = 1.3850, Accuracy = 48.02%
+[tanh] Epoch 3, Batch 100: Loss = 1.452
+[tanh] Epoch 3, Batch 200: Loss = 1.404
+[tanh] Epoch 3, Batch 300: Loss = 1.395
+[tanh] Epoch 3/15: Loss = 1.3925, Accuracy = 48.66%
+[tanh] Epoch 4, Batch 100: Loss = 1.298
+[tanh] Epoch 4, Batch 200: Loss = 1.307
+[tanh] Epoch 4, Batch 300: Loss = 1.247
+[tanh] Epoch 4/15: Loss = 1.2019, Accuracy = 55.95%
+[tanh] Epoch 5, Batch 100: Loss = 1.203
+[tanh] Epoch 5, Batch 200: Loss = 1.202
+[tanh] Epoch 5, Batch 300: Loss = 1.183
+[tanh] Epoch 5/15: Loss = 1.2554, Accuracy = 55.76%
+[tanh] Epoch 6, Batch 100: Loss = 1.149
+[tanh] Epoch 6, Batch 200: Loss = 1.132
+[tanh] Epoch 6, Batch 300: Loss = 1.116
+[tanh] Epoch 6/15: Loss = 1.1508, Accuracy = 58.21%
+[tanh] Epoch 7, Batch 100: Loss = 1.072
+[tanh] Epoch 7, Batch 200: Loss = 1.075
+[tanh] Epoch 7, Batch 300: Loss = 1.084
+[tanh] Epoch 7/15: Loss = 1.4028, Accuracy = 51.61%
+[tanh] Epoch 8, Batch 100: Loss = 0.954
+[tanh] Epoch 8, Batch 200: Loss = 0.926
+[tanh] Epoch 8, Batch 300: Loss = 0.913
+[tanh] Epoch 8/15: Loss = 0.8575, Accuracy = 69.34%
+[tanh] Epoch 9, Batch 100: Loss = 0.900
+[tanh] Epoch 9, Batch 200: Loss = 0.892
+[tanh] Epoch 9, Batch 300: Loss = 0.909
+[tanh] Epoch 9/15: Loss = 0.8185, Accuracy = 70.57%
+[tanh] Epoch 10, Batch 100: Loss = 0.884
+[tanh] Epoch 10, Batch 200: Loss = 0.877
+[tanh] Epoch 10, Batch 300: Loss = 0.898
+[tanh] Epoch 10/15: Loss = 0.8041, Accuracy = 71.11%
+[tanh] Epoch 11, Batch 100: Loss = 0.871
+[tanh] Epoch 11, Batch 200: Loss = 0.880
+[tanh] Epoch 11, Batch 300: Loss = 0.862
+[tanh] Epoch 11/15: Loss = 0.8015, Accuracy = 71.49%
+[tanh] Epoch 12, Batch 100: Loss = 0.865
+[tanh] Epoch 12, Batch 200: Loss = 0.851
+[tanh] Epoch 12, Batch 300: Loss = 0.874
+[tanh] Epoch 12/15: Loss = 0.7761, Accuracy = 72.22%
+[tanh] Epoch 13, Batch 100: Loss = 0.841
+[tanh] Epoch 13, Batch 200: Loss = 0.846
+[tanh] Epoch 13, Batch 300: Loss = 0.845
+[tanh] Epoch 13/15: Loss = 0.7654, Accuracy = 72.68%
+[tanh] Epoch 14, Batch 100: Loss = 0.836
+[tanh] Epoch 14, Batch 200: Loss = 0.819
+[tanh] Epoch 14, Batch 300: Loss = 0.840
+[tanh] Epoch 14/15: Loss = 0.7499, Accuracy = 73.24%
+[tanh] Epoch 15, Batch 100: Loss = 0.813
+[tanh] Epoch 15, Batch 200: Loss = 0.812
+[tanh] Epoch 15, Batch 300: Loss = 0.798
+[tanh] Epoch 15/15: Loss = 0.7313, Accuracy = 73.78%
+[tanh] 测试准确率: 72.42%
+图像已保存为: activation_comparison_0605.png
+
+=== 激活函数性能总结 ===
+1. swish: 测试准确率 = 85.25%
+2. gelu: 测试准确率 = 84.71%
+3. relu: 测试准确率 = 83.82%
+4. leaky_relu: 测试准确率 = 82.32%
+5. elu: 测试准确率 = 78.84%
+6. tanh: 测试准确率 = 72.42%

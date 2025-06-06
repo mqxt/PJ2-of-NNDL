@@ -1,0 +1,117 @@
+使用设备: cuda:0
+Files already downloaded and verified
+Files already downloaded and verified
+
+小型网络 (3层, 128神经元) 参数数量: 168,458
+
+开始训练 小型网络 (3层, 128神经元)
+--------------------------------------------------
+Epoch [1/15] - Loss: 1.9451, Train Acc: 23.29%, Test Acc: 33.86%
+Epoch [2/15] - Loss: 1.6727, Train Acc: 34.26%, Test Acc: 40.75%
+Epoch [3/15] - Loss: 1.5479, Train Acc: 40.08%, Test Acc: 47.42%
+Epoch [4/15] - Loss: 1.4260, Train Acc: 45.67%, Test Acc: 50.40%
+Epoch [5/15] - Loss: 1.3409, Train Acc: 50.10%, Test Acc: 57.84%
+Epoch [6/15] - Loss: 1.2551, Train Acc: 54.34%, Test Acc: 57.70%
+Epoch [7/15] - Loss: 1.1814, Train Acc: 58.17%, Test Acc: 61.44%
+Epoch [8/15] - Loss: 1.0625, Train Acc: 62.80%, Test Acc: 67.61%
+Epoch [9/15] - Loss: 1.0270, Train Acc: 63.89%, Test Acc: 68.69%
+Epoch [10/15] - Loss: 1.0096, Train Acc: 64.62%, Test Acc: 69.59%
+Epoch [11/15] - Loss: 1.0006, Train Acc: 65.33%, Test Acc: 70.21%
+Epoch [12/15] - Loss: 0.9876, Train Acc: 65.81%, Test Acc: 70.10%
+Epoch [13/15] - Loss: 0.9734, Train Acc: 65.90%, Test Acc: 70.70%
+Epoch [14/15] - Loss: 0.9674, Train Acc: 66.58%, Test Acc: 70.66%
+Epoch [15/15] - Loss: 0.9455, Train Acc: 66.99%, Test Acc: 71.06%
+
+中型网络 (4层, 256神经元) 参数数量: 448,586
+
+开始训练 中型网络 (4层, 256神经元)
+--------------------------------------------------
+Epoch [1/15] - Loss: 1.7780, Train Acc: 30.43%, Test Acc: 40.98%
+Epoch [2/15] - Loss: 1.4502, Train Acc: 44.71%, Test Acc: 52.04%
+Epoch [3/15] - Loss: 1.2660, Train Acc: 53.37%, Test Acc: 54.79%
+Epoch [4/15] - Loss: 1.1271, Train Acc: 59.78%, Test Acc: 63.79%
+Epoch [5/15] - Loss: 1.0116, Train Acc: 64.22%, Test Acc: 65.65%
+Epoch [6/15] - Loss: 0.9361, Train Acc: 67.50%, Test Acc: 67.44%
+Epoch [7/15] - Loss: 0.8644, Train Acc: 70.30%, Test Acc: 70.19%
+Epoch [8/15] - Loss: 0.7408, Train Acc: 74.53%, Test Acc: 77.52%
+Epoch [9/15] - Loss: 0.7013, Train Acc: 75.86%, Test Acc: 77.85%
+Epoch [10/15] - Loss: 0.6792, Train Acc: 77.00%, Test Acc: 78.14%
+Epoch [11/15] - Loss: 0.6760, Train Acc: 76.94%, Test Acc: 78.27%
+Epoch [12/15] - Loss: 0.6553, Train Acc: 77.56%, Test Acc: 78.50%
+Epoch [13/15] - Loss: 0.6492, Train Acc: 77.83%, Test Acc: 78.98%
+Epoch [14/15] - Loss: 0.6398, Train Acc: 78.21%, Test Acc: 79.10%
+Epoch [15/15] - Loss: 0.6173, Train Acc: 79.47%, Test Acc: 79.69%
+
+大型网络 (5层, 512神经元) 参数数量: 876,746
+
+开始训练 大型网络 (5层, 512神经元)
+--------------------------------------------------
+Epoch [1/15] - Loss: 1.7308, Train Acc: 31.87%, Test Acc: 43.97%
+Epoch [2/15] - Loss: 1.3625, Train Acc: 48.52%, Test Acc: 56.58%
+Epoch [3/15] - Loss: 1.1518, Train Acc: 58.93%, Test Acc: 64.98%
+Epoch [4/15] - Loss: 0.9985, Train Acc: 64.88%, Test Acc: 67.30%
+Epoch [5/15] - Loss: 0.8964, Train Acc: 69.27%, Test Acc: 71.82%
+Epoch [6/15] - Loss: 0.8132, Train Acc: 72.26%, Test Acc: 72.87%
+Epoch [7/15] - Loss: 0.7478, Train Acc: 75.30%, Test Acc: 73.91%
+Epoch [8/15] - Loss: 0.6050, Train Acc: 80.13%, Test Acc: 82.25%
+Epoch [9/15] - Loss: 0.5592, Train Acc: 81.53%, Test Acc: 82.67%
+Epoch [10/15] - Loss: 0.5409, Train Acc: 82.17%, Test Acc: 82.40%
+Epoch [11/15] - Loss: 0.5251, Train Acc: 82.62%, Test Acc: 83.20%
+Epoch [12/15] - Loss: 0.5150, Train Acc: 83.07%, Test Acc: 83.15%
+Epoch [13/15] - Loss: 0.5020, Train Acc: 83.61%, Test Acc: 83.73%
+Epoch [14/15] - Loss: 0.4934, Train Acc: 83.95%, Test Acc: 83.47%
+Epoch [15/15] - Loss: 0.4706, Train Acc: 84.63%, Test Acc: 84.16%
+
+宽型网络 (3层, 64通道, 256神经元) 参数数量: 668,682
+
+开始训练 宽型网络 (3层, 64通道, 256神经元)
+--------------------------------------------------
+Epoch [1/15] - Loss: 1.7975, Train Acc: 29.69%, Test Acc: 39.80%
+Epoch [2/15] - Loss: 1.5155, Train Acc: 41.90%, Test Acc: 46.46%
+Epoch [3/15] - Loss: 1.3635, Train Acc: 48.92%, Test Acc: 44.40%
+Epoch [4/15] - Loss: 1.2364, Train Acc: 54.68%, Test Acc: 57.23%
+Epoch [5/15] - Loss: 1.1212, Train Acc: 60.41%, Test Acc: 59.51%
+Epoch [6/15] - Loss: 1.0196, Train Acc: 64.30%, Test Acc: 66.58%
+Epoch [7/15] - Loss: 0.9390, Train Acc: 67.69%, Test Acc: 67.37%
+Epoch [8/15] - Loss: 0.7905, Train Acc: 72.63%, Test Acc: 75.66%
+Epoch [9/15] - Loss: 0.7482, Train Acc: 74.05%, Test Acc: 76.73%
+Epoch [10/15] - Loss: 0.7266, Train Acc: 75.17%, Test Acc: 77.13%
+Epoch [11/15] - Loss: 0.7092, Train Acc: 75.66%, Test Acc: 77.39%
+Epoch [12/15] - Loss: 0.6845, Train Acc: 76.49%, Test Acc: 78.10%
+Epoch [13/15] - Loss: 0.6718, Train Acc: 76.96%, Test Acc: 78.30%
+Epoch [14/15] - Loss: 0.6614, Train Acc: 77.54%, Test Acc: 78.53%
+Epoch [15/15] - Loss: 0.6364, Train Acc: 78.24%, Test Acc: 79.15%
+
+深层网络 (6层, 256神经元) 参数数量: 1,695,818
+
+开始训练 深层网络 (6层, 256神经元)
+--------------------------------------------------
+Epoch [1/15] - Loss: 1.7486, Train Acc: 32.60%, Test Acc: 41.81%
+Epoch [2/15] - Loss: 1.3357, Train Acc: 51.35%, Test Acc: 55.40%
+Epoch [3/15] - Loss: 1.1325, Train Acc: 60.56%, Test Acc: 62.62%
+Epoch [4/15] - Loss: 0.9869, Train Acc: 66.33%, Test Acc: 69.27%
+Epoch [5/15] - Loss: 0.8917, Train Acc: 69.71%, Test Acc: 65.58%
+Epoch [6/15] - Loss: 0.8027, Train Acc: 73.23%, Test Acc: 74.33%
+Epoch [7/15] - Loss: 0.7356, Train Acc: 75.86%, Test Acc: 74.59%
+Epoch [8/15] - Loss: 0.5955, Train Acc: 80.83%, Test Acc: 82.49%
+Epoch [9/15] - Loss: 0.5504, Train Acc: 82.07%, Test Acc: 82.79%
+Epoch [10/15] - Loss: 0.5279, Train Acc: 83.09%, Test Acc: 83.70%
+Epoch [11/15] - Loss: 0.5146, Train Acc: 83.40%, Test Acc: 83.69%
+Epoch [12/15] - Loss: 0.5005, Train Acc: 83.86%, Test Acc: 84.01%
+Epoch [13/15] - Loss: 0.4826, Train Acc: 84.32%, Test Acc: 84.32%
+Epoch [14/15] - Loss: 0.4708, Train Acc: 84.94%, Test Acc: 84.28%
+Epoch [15/15] - Loss: 0.4542, Train Acc: 85.34%, Test Acc: 84.73%
+================================================================================
+最终结果摘要
+================================================================================
+模型名称                      参数数量         最终训练准确率         最终测试准确率         最低训练损失         
+--------------------------------------------------------------------------------
+小型网络 (3层, 128神经元)         168,458      66.99           71.06           0.9455         
+中型网络 (4层, 256神经元)         448,586      79.47           79.69           0.6173         
+大型网络 (5层, 512神经元)         876,746      84.63           84.16           0.4706         
+宽型网络 (3层, 64通道, 256神经元)   668,682      78.24           79.15           0.6364         
+深层网络 (6层, 256神经元)         1,695,818    85.34           84.73           0.4542         
+
+最佳模型: 深层网络 (6层, 256神经元)
+最终测试准确率: 84.73%
+参数数量: 1,695,818

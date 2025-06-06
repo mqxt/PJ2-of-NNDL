@@ -1,0 +1,76 @@
+root@autodl-container-caf44cbe32-76113d23:~/nndl# python 0605best.py
+Using device: cuda:0
+Files already downloaded and verified
+Files already downloaded and verified
+[1,   100] loss: 2.028
+[1,   200] loss: 1.825
+[1,   300] loss: 1.700
+[2,   100] loss: 1.529
+[2,   200] loss: 1.465
+[2,   300] loss: 1.415
+[3,   100] loss: 1.331
+[3,   200] loss: 1.277
+[3,   300] loss: 1.244
+[4,   100] loss: 1.196
+[4,   200] loss: 1.180
+[4,   300] loss: 1.147
+[5,   100] loss: 1.102
+[5,   200] loss: 1.089
+[5,   300] loss: 1.075
+[6,   100] loss: 1.030
+[6,   200] loss: 1.011
+[6,   300] loss: 1.029
+[7,   100] loss: 0.984
+[7,   200] loss: 0.985
+[7,   300] loss: 0.978
+[8,   100] loss: 0.919
+[8,   200] loss: 0.885
+[8,   300] loss: 0.876
+[9,   100] loss: 0.859
+[9,   200] loss: 0.860
+[9,   300] loss: 0.862
+[10,   100] loss: 0.835
+[10,   200] loss: 0.846
+[10,   300] loss: 0.855
+[11,   100] loss: 0.823
+[11,   200] loss: 0.840
+[11,   300] loss: 0.837
+[12,   100] loss: 0.821
+[12,   200] loss: 0.831
+[12,   300] loss: 0.825
+[13,   100] loss: 0.819
+[13,   200] loss: 0.814
+[13,   300] loss: 0.813
+[14,   100] loss: 0.802
+[14,   200] loss: 0.808
+[14,   300] loss: 0.807
+[15,   100] loss: 0.800
+[15,   200] loss: 0.802
+[15,   300] loss: 0.790
+[16,   100] loss: 0.795
+[16,   200] loss: 0.791
+[16,   300] loss: 0.791
+[17,   100] loss: 0.789
+[17,   200] loss: 0.791
+[17,   300] loss: 0.785
+[18,   100] loss: 0.796
+[18,   200] loss: 0.789
+[18,   300] loss: 0.776
+[19,   100] loss: 0.791
+[19,   200] loss: 0.783
+[19,   300] loss: 0.791
+[20,   100] loss: 0.781
+[20,   200] loss: 0.785
+[20,   300] loss: 0.790
+Finished Training
+Accuracy of the network on the 10000 test images: 87.03 %
+Accuracy for class: plane is 89.4 %
+Accuracy for class: car   is 93.3 %
+Accuracy for class: bird  is 79.9 %
+Accuracy for class: cat   is 71.5 %
+Accuracy for class: deer  is 87.0 %
+Accuracy for class: dog   is 81.3 %
+Accuracy for class: frog  is 92.2 %
+Accuracy for class: horse is 89.9 %
+Accuracy for class: ship  is 93.3 %
+Accuracy for class: truck is 92.5 %

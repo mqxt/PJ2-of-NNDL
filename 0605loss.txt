@@ -1,0 +1,155 @@
+root@autodl-container-caf44cbe32-76113d23:~/nndl# python 0605loss.py
+Using device: cuda:0
+Files already downloaded and verified
+Files already downloaded and verified
+Training: CrossEntropy + L2(1e-4)
+Epoch [1/15], Loss: 1.9334, Accuracy: 42.22%
+Epoch [2/15], Loss: 1.5811, Accuracy: 53.03%
+Epoch [3/15], Loss: 1.3911, Accuracy: 59.22%
+Epoch [4/15], Loss: 1.2581, Accuracy: 59.49%
+Epoch [5/15], Loss: 1.1548, Accuracy: 66.81%
+Epoch [6/15], Loss: 1.0791, Accuracy: 69.06%
+Epoch [7/15], Loss: 1.0078, Accuracy: 70.68%
+Epoch [8/15], Loss: 0.8607, Accuracy: 80.27%
+Epoch [9/15], Loss: 0.8164, Accuracy: 81.08%
+Epoch [10/15], Loss: 0.7912, Accuracy: 80.99%
+Epoch [11/15], Loss: 0.7742, Accuracy: 81.93%
+Epoch [12/15], Loss: 0.7580, Accuracy: 82.11%
+Epoch [13/15], Loss: 0.7425, Accuracy: 82.35%
+Epoch [14/15], Loss: 0.7263, Accuracy: 82.83%
+Epoch [15/15], Loss: 0.6987, Accuracy: 83.02%
+Final accuracy for CrossEntropy + L2(1e-4): 83.02%
+
+Training: CrossEntropy + L2(1e-3)
+Epoch [1/15], Loss: 2.8165, Accuracy: 41.00%
+Epoch [2/15], Loss: 2.0533, Accuracy: 43.56%
+Epoch [3/15], Loss: 1.7317, Accuracy: 45.99%
+Epoch [4/15], Loss: 1.5616, Accuracy: 58.36%
+Epoch [5/15], Loss: 1.4517, Accuracy: 62.80%
+Epoch [6/15], Loss: 1.3611, Accuracy: 65.76%
+Epoch [7/15], Loss: 1.2971, Accuracy: 64.05%
+Epoch [8/15], Loss: 1.1181, Accuracy: 76.00%
+Epoch [9/15], Loss: 1.0545, Accuracy: 77.65%
+Epoch [10/15], Loss: 1.0200, Accuracy: 78.17%
+Epoch [11/15], Loss: 0.9938, Accuracy: 79.31%
+Epoch [12/15], Loss: 0.9611, Accuracy: 80.14%
+Epoch [13/15], Loss: 0.9414, Accuracy: 80.08%
+Epoch [14/15], Loss: 0.9102, Accuracy: 80.46%
+Epoch [15/15], Loss: 0.8828, Accuracy: 82.01%
+Final accuracy for CrossEntropy + L2(1e-3): 82.01%
+
+Training: CrossEntropy + L1(1e-4)
+Epoch [1/15], Loss: 2.5558, Accuracy: 35.87%
+Epoch [2/15], Loss: 2.0624, Accuracy: 42.33%
+Epoch [3/15], Loss: 1.8628, Accuracy: 49.92%
+Epoch [4/15], Loss: 1.7417, Accuracy: 48.68%
+Epoch [5/15], Loss: 1.6367, Accuracy: 53.43%
+Epoch [6/15], Loss: 1.5456, Accuracy: 62.42%
+Epoch [7/15], Loss: 1.4852, Accuracy: 63.06%
+Epoch [8/15], Loss: 1.3099, Accuracy: 71.47%
+Epoch [9/15], Loss: 1.2552, Accuracy: 72.11%
+Epoch [10/15], Loss: 1.2192, Accuracy: 73.08%
+Epoch [11/15], Loss: 1.1962, Accuracy: 73.54%
+Epoch [12/15], Loss: 1.1797, Accuracy: 73.80%
+Epoch [13/15], Loss: 1.1591, Accuracy: 74.41%
+Epoch [14/15], Loss: 1.1461, Accuracy: 74.81%
+Epoch [15/15], Loss: 1.1133, Accuracy: 75.66%
+Final accuracy for CrossEntropy + L1(1e-4): 75.66%
+
+Training: Focal Loss + L2(1e-4)
+Epoch [1/15], Loss: 1.4241, Accuracy: 39.79%
+Epoch [2/15], Loss: 1.0887, Accuracy: 49.04%
+Epoch [3/15], Loss: 0.9428, Accuracy: 50.92%
+Epoch [4/15], Loss: 0.8481, Accuracy: 59.84%
+Epoch [5/15], Loss: 0.7740, Accuracy: 61.86%
+Epoch [6/15], Loss: 0.7199, Accuracy: 66.38%
+Epoch [7/15], Loss: 0.6710, Accuracy: 70.72%
+Epoch [8/15], Loss: 0.5631, Accuracy: 76.65%
+Epoch [9/15], Loss: 0.5332, Accuracy: 76.99%
+Epoch [10/15], Loss: 0.5180, Accuracy: 77.33%
+Epoch [11/15], Loss: 0.5054, Accuracy: 77.89%
+Epoch [12/15], Loss: 0.4910, Accuracy: 78.47%
+Epoch [13/15], Loss: 0.4817, Accuracy: 78.30%
+Epoch [14/15], Loss: 0.4729, Accuracy: 79.46%
+Epoch [15/15], Loss: 0.4573, Accuracy: 79.67%
+Final accuracy for Focal Loss + L2(1e-4): 79.67%
+
+Training: Label Smoothing + L2(1e-4)
+Epoch [1/15], Loss: 2.0480, Accuracy: 33.39%
+Epoch [2/15], Loss: 1.7575, Accuracy: 51.62%
+Epoch [3/15], Loss: 1.5832, Accuracy: 64.50%
+Epoch [4/15], Loss: 1.4739, Accuracy: 59.93%
+Epoch [5/15], Loss: 1.3911, Accuracy: 70.30%
+Epoch [6/15], Loss: 1.3220, Accuracy: 73.20%
+Epoch [7/15], Loss: 1.2711, Accuracy: 78.81%
+Epoch [8/15], Loss: 1.1642, Accuracy: 83.02%
+Epoch [9/15], Loss: 1.1241, Accuracy: 83.56%
+Epoch [10/15], Loss: 1.1061, Accuracy: 83.81%
+Epoch [11/15], Loss: 1.0904, Accuracy: 83.94%
+Epoch [12/15], Loss: 1.0765, Accuracy: 84.08%
+Epoch [13/15], Loss: 1.0681, Accuracy: 84.44%
+Epoch [14/15], Loss: 1.0557, Accuracy: 84.62%
+Epoch [15/15], Loss: 1.0384, Accuracy: 85.05%
+Final accuracy for Label Smoothing + L2(1e-4): 85.05%
+
+Training: CrossEntropy + No Regularization
+Epoch [1/15], Loss: 1.7500, Accuracy: 44.02%
+Epoch [2/15], Loss: 1.4288, Accuracy: 40.17%
+Epoch [3/15], Loss: 1.2298, Accuracy: 58.59%
+Epoch [4/15], Loss: 1.0807, Accuracy: 63.41%
+Epoch [5/15], Loss: 0.9724, Accuracy: 69.61%
+Epoch [6/15], Loss: 0.8792, Accuracy: 72.64%
+Epoch [7/15], Loss: 0.8072, Accuracy: 75.48%
+Epoch [8/15], Loss: 0.6774, Accuracy: 79.95%
+Epoch [9/15], Loss: 0.6337, Accuracy: 80.79%
+Epoch [10/15], Loss: 0.6204, Accuracy: 80.81%
+Epoch [11/15], Loss: 0.6102, Accuracy: 81.14%
+Epoch [12/15], Loss: 0.5888, Accuracy: 80.91%
+Epoch [13/15], Loss: 0.5781, Accuracy: 81.89%
+Epoch [14/15], Loss: 0.5683, Accuracy: 82.04%
+Epoch [15/15], Loss: 0.5536, Accuracy: 82.13%
+Final accuracy for CrossEntropy + No Regularization: 82.13%
+
+Training: CrossEntropy + L2(1e-5)
+Epoch [1/15], Loss: 1.7831, Accuracy: 43.28%
+Epoch [2/15], Loss: 1.4363, Accuracy: 51.14%
+Epoch [3/15], Loss: 1.2228, Accuracy: 62.52%
+Epoch [4/15], Loss: 1.0869, Accuracy: 65.25%
+Epoch [5/15], Loss: 0.9942, Accuracy: 66.81%
+Epoch [6/15], Loss: 0.9078, Accuracy: 72.11%
+Epoch [7/15], Loss: 0.8470, Accuracy: 68.91%
+Epoch [8/15], Loss: 0.7175, Accuracy: 79.35%
+Epoch [9/15], Loss: 0.6776, Accuracy: 79.90%
+Epoch [10/15], Loss: 0.6555, Accuracy: 80.52%
+Epoch [11/15], Loss: 0.6341, Accuracy: 80.71%
+Epoch [12/15], Loss: 0.6205, Accuracy: 81.34%
+Epoch [13/15], Loss: 0.6134, Accuracy: 81.57%
+Epoch [14/15], Loss: 0.5998, Accuracy: 82.33%
+Epoch [15/15], Loss: 0.5787, Accuracy: 82.36%
+Final accuracy for CrossEntropy + L2(1e-5): 82.36%
+
+Comparison plots saved as 'loss_regularization_comparison.png' and '.pdf'
+
+============================================================
+FINAL RESULTS SUMMARY
+============================================================
+1. Label Smoothing + L2(1e-4): 85.05% accuracy
+   Final loss: 1.0384
+
+2. CrossEntropy + L2(1e-4): 83.02% accuracy
+   Final loss: 0.6987
+
+3. CrossEntropy + L2(1e-5): 82.36% accuracy
+   Final loss: 0.5787
+
+4. CrossEntropy + No Regularization: 82.13% accuracy
+   Final loss: 0.5536
+
+5. CrossEntropy + L2(1e-3): 82.01% accuracy
+   Final loss: 0.8828
+
+6. Focal Loss + L2(1e-4): 79.67% accuracy
+   Final loss: 0.4573
+
+7. CrossEntropy + L1(1e-4): 75.66% accuracy
+   Final loss: 1.1133
